@@ -1,9 +1,9 @@
 let card = ""
 function createCard(image, sub, link) {
    card += `
-    <div class="card min-h-24 max-w-80 bg-blue-400 flex flex-col justify-center items-center rounded-md border-2 border-cyan-700 p-6 gap-4">
-    <div class="img w-44 ">
-        <img class="object-cover rounded-full" src="${image}" alt="">
+    <div class="card min-h-24 max-w-80 bg-blue-600 flex flex-col justify-center items-center rounded-md border-2 border-cyan-700 p-6 gap-4">
+    <div class="img">
+        <img class=" w-44  h-44 object-fill object-bottom rounded-full" src="${image}" alt="">
     </div>
     <div class="txt text-xl font-semibold text-wrap max-w-fit">
         <h1>
@@ -21,9 +21,10 @@ function createCard(image, sub, link) {
 }
 
 createCard("icons/sanskrit.jpg", "Sanskrit", "https://drive.google.com/drive/folders/1wNTNmRH8Y1q4pfEY7j2muE-XhpkcjsYr");
-createCard("icons/sanskrit.jpg", "English", "https://drive.google.com/drive/folders/1wNTNmRH8Y1q4pfEY7j2muE-XhpkcjsYr");
-createCard("icons/sanskrit.jpg", "Computer Fundamemtal", "https://drive.google.com/drive/folders/1wNTNmRH8Y1q4pfEY7j2muE-XhpkcjsYr");
-createCard("icons/sanskrit.jpg", "English", "https://drive.google.com/drive/folders/1wNTNmRH8Y1q4pfEY7j2muE-XhpkcjsYr");
-createCard("icons/sanskrit.jpg", "English", "https://drive.google.com/drive/folders/1wNTNmRH8Y1q4pfEY7j2muE-XhpkcjsYr");
-createCard("icons/sanskrit.jpg", "English", "https://drive.google.com/drive/folders/1wNTNmRH8Y1q4pfEY7j2muE-XhpkcjsYr");
-createCard("icons/sanskrit.jpg", "English", "https://drive.google.com/drive/folders/1wNTNmRH8Y1q4pfEY7j2muE-XhpkcjsYr");
+createCard("icons/english.jpg", "English", "https://drive.google.com/drive/folders/1pTb3Ln22V5afmsZY0iQYS5MJHSDkMi32");
+createCard("icons/cf.png", "Computer Fundamemtal", "https://drive.google.com/drive/folders/1ONHM3A8jgY7YTVX2T37QtAlaY2i7EEL6");
+createCard("icons/C.png", "Programming in C", "https://drive.google.com/drive/folders/1613B-h4fkN2eA043rkAWzVydTMFt2d2Q");
+createCard("icons/os.jpg", "Operating System", "https://drive.google.com/drive/folders/1w9jSje8Jg9L7LP-_wUUNN-fnH-6DHKOA");
+createCard("icons/oa.jpg", "Office Automation", "https://drive.google.com/drive/folders/1pCbsFe6I6kJd6BlnnOKOzUJFY1TfSKu2");
+createCard("icons/math.jpg", "Discrete Mathematics", "https://drive.google.com/drive/folders/1LS9tiqer0LAzWG7oOer2WZPwNI__glJp");
+createCard("icons/stats.webp", "Statistic", "https://drive.google.com/drive/folders/1Lo0hVgFqWqMIcoMAKQCEKWG1t2aaWXyd");
