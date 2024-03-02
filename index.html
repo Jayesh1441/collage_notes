@@ -3,25 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Notes</title>
+    <title>Collage Notes</title>
     <link rel="shortcut icon" href="https://sahyogcollegeofitandmanagement.com/themes/demo/assets/images/logo.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
+    
 </head>
 <body>
-    <div class="container h-screen w-screen overflow-x-scroll  text-white">
-        <nav class=" bg-slate-950 w-screen h-fit flex justify-between p-4 align-middle items-center">
+    <div class="container h-screen w-screen  text-white">
+        <nav class=" bg-slate-800 w-[100%] h-fit flex justify-between p-4 align-middle items-center">
             <h3 class="font-semibold text-3xl hover:cursor-pointer">Sahyog</h3>
-            <ul class=" flex gap-5 text-justify text-lg m-1">
+            <ul class=" flex gap-5 text-justify text-lg m-1 max-sm:hidden">
                 <li class=" hover:cursor-pointer hover:underline hover:scale-105"> <a href="">Home</a> </li>
                 <li class=" hover:cursor-pointer hover:underline hover:scale-105"> <a href="">About</a> </li>
                 <li class=" hover:cursor-pointer hover:underline hover:scale-105"> <a href="">Feedback</a> </li>
                 <li class=" hover:cursor-pointer hover:underline hover:scale-105"> <a href="">Contact</a> </li>
-                <img class="h-5 invert sm:hidden " src="icons/bars-solid.svg" alt="menu bar">
+                <img class="h-5 invert self-center " src="icons/bars-solid.svg" alt="menu bar">
             </ul>
         </nav>
-        <div class="hero h-3/4 w-screen bg-blue-700">
+        <div class="hero h-3/4 w-[100%] bg-blue-700">
             <img src="#" alt="">
-            <div class="text flex flex-col justify-center items-center text-center gap-10 mt-40 ">
+            <div class="text flex flex-col justify-center items-center text-center gap-10 mt-36">
                 <h1 class="text-5xl" >All PDFs are at one place sahyog.notes</h1>
                 <h5 class="text-wrap text-2xl w-3/4 max-sm:hidden" >Don't worry to find your study material and stop asking to CR and your friends to send you ! sahyog.notes is Developed for you to view and download all semester notes and previous year question paper of all subjects with chapter wise Prepared by sahyog</h5>
                 <div class="btn rounded-lg p-4 text-xl bg-slate-950 hover:bg-slate-900 hover:cursor-pointer mt-4 ">
@@ -29,17 +30,17 @@
                 </div>
             </div>
         </div>
-        <div class="cardcontainer bg-cyan-600-700 h-fit w-screen flex justify-center items-center p-16 ">
+        <div class="cardcontainer bg-blue-300 h-fit w-[100%] flex justify-center items-center p-16 overflow-hidden ">
         <div class="card-nav w-fit h-fit text-black flex flex-col justify-center items-center gap-10 text-center mt-8 ">
-            <h1 class="text-4xl font-semibold text-center" >Choose Semester</h1>
+            <h1 class="text-4xl font-semibold text-center whitespace-nowrap" >Choose Semester</h1>
             <nav class=" " >
-                <ul class="flex gap-7 text-xl w-[90%] overflow-x-auto ">
-                    <li><a href="#">Sem 1</a></li>
-                    <li><a href="#">Sem 2</a></li>
-                    <li><a href="#">Sem 3</a></li>
-                    <li><a href="#">Sem 4</a></li>
-                    <li><a href="#">Sem 5</a></li>
-                    <li><a href="#">Sem 6</a></li>
+                <ul class="flex gap-4 text-xl sm:text-lg ">
+                    <li><a href="sem1" target="_blank" id="sem1">Sem 1</a></li>
+                    <li><a href="sem2" id="sem2">Sem 2</a></li>
+                    <li><a href="sem3">Sem 3</a></li>
+                    <li><a href="sem4">Sem 4</a></li>
+                    <li><a href="sem5">Sem 5</a></li>
+                    <li><a href="sem6">Sem 6</a></li>
                 </ul>
             </nav>
             <div class="cards flex flex-wrap gap-5 justify-center items-center ">
