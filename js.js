@@ -25,7 +25,7 @@ function showSemester(semester) {
     if (semester === "Semester 1") {
         createCard("icons/sem1/sanskrit.jpg", "Sanskrit", "https://drive.google.com/drive/folders/1wNTNmRH8Y1q4pfEY7j2muE-XhpkcjsYr");
         createCard("icons/sem1/english.jpg", "English", "https://drive.google.com/drive/folders/1pTb3Ln22V5afmsZY0iQYS5MJHSDkMi32");
-        createCard("icons/sem1/CF.png", "Computer Fundamemtal", "https://drive.google.com/drive/folders/1ONHM3A8jgY7YTVX2T37QtAlaY2i7EEL6");
+        createCard("icons/sem1/cf.png", "Computer Fundamemtal", "https://drive.google.com/drive/folders/1ONHM3A8jgY7YTVX2T37QtAlaY2i7EEL6");
         createCard("icons/sem1/C.png", "Programming in C", "https://drive.google.com/drive/folders/1613B-h4fkN2eA043rkAWzVydTMFt2d2Q");
         createCard("icons/sem1/os.jpg", "Operating System", "https://drive.google.com/drive/folders/1w9jSje8Jg9L7LP-_wUUNN-fnH-6DHKOA");
         createCard("icons/sem1/oa.jpg", "Office Automation", "https://drive.google.com/drive/folders/1pCbsFe6I6kJd6BlnnOKOzUJFY1TfSKu2");
