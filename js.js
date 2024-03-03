@@ -13,10 +13,10 @@ function createCard(image, sub, link) {
     <button class="py-2 px-16 bg-green-600 mt-5 font-semibold text-white rounded" ><a href="${link}">Browse notes</a></button>
  </div>
     `
-    console.log(card);
+
     let cards = document.querySelector(".cards")
     cards.innerHTML = card;
-    console.log(cards);
+
 
 }
 
@@ -29,6 +29,34 @@ createCard("icons/sanskrit.jpg", "Sanskrit", "https://drive.google.com/drive/fol
     createCard("icons/oa.jpg", "Office Automation", "https://drive.google.com/drive/folders/1pCbsFe6I6kJd6BlnnOKOzUJFY1TfSKu2");
     createCard("icons/math.jpg", "Discrete Mathematics", "https://drive.google.com/drive/folders/1LS9tiqer0LAzWG7oOer2WZPwNI__glJp");
     createCard("icons/stats.webp", "Statistic", "https://drive.google.com/drive/folders/1Lo0hVgFqWqMIcoMAKQCEKWG1t2aaWXyd");
+
+    let bar = document.getElementById("bar")
+    let mobNav = document.querySelector(".mob-nav")
+    console.log(mobNav);
+    let toggle = 0;
+    bar.addEventListener("click", ()=>{
+        if(toggle == 0){
+        mobNav.style.display="block"
+        toggle++
+       }
+        else{
+            mobNav.style.display="none"
+            toggle = 0
+        }
+    })
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // const semester = {
 //     sem1 : sem1(),
