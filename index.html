@@ -1,60 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Collage Notes</title>
-    <link rel="shortcut icon" href="https://sahyogcollegeofitandmanagement.com/themes/demo/assets/images/logo.png" type="image/x-icon">
+    <link rel="shortcut icon" href="https://sahyogcollegeofitandmanagement.com/themes/demo/assets/images/logo.png"
+        type="image/x-icon">
     <link rel="stylesheet" href="style.css">
     <style>
-
         @media (max-width: 768px) {
             .max-sm\:hidden {
                 display: none;
             }
+
             .max-sm\:block {
                 display: block;
             }
+
             .max-sm\:hidden {
                 display: none;
             }
+
             .hero {
                 min-height: calc(100vh - 64px);
             }
         }
     </style>
 </head>
+
 <body class="overflow-x-hidden ">
     <div class="container h-screen w-screen text-white overflow-x-hidden">
         <nav class="bg-slate-800 w-full h-fit flex justify-between p-4 align-middle items-center">
             <h3 class="font-semibold text-3xl hover:cursor-pointer ml-4">Sahyog</h3>
             <ul class="flex gap-5 text-justify text-lg m-1 max-sm:hidden mr-4">
-                <li class="hover:cursor-pointer hover:underline hover:scale-105"> <a href="">Home</a> </li>
-                <li class="hover:cursor-pointer hover:underline hover:scale-105"> <a href="">About</a> </li>
-                <li class="hover:cursor-pointer hover:underline hover:scale-105"> <a href="">Feedback</a> </li>
-                <li class="hover:cursor-pointer hover:underline hover:scale-105"> <a href="">Contact</a> </li>
+                <li class="hover:cursor-pointer hover:underline hover:scale-105"> <a href="#">Home</a> </li>
+                <li class="hover:cursor-pointer hover:underline hover:scale-105"> <a href="#">About</a> </li>
+                <li class="hover:cursor-pointer hover:underline hover:scale-105"> <a href="#">Feedback</a> </li>
+                <li class="hover:cursor-pointer hover:underline hover:scale-105"> <a href="#">Contact</a> </li>
             </ul>
-            <img id="bar" class="h-5 invert self-center hidden max-sm:block justify-center items-center" src="icons/bars-solid.svg" alt="menu bar">
+            <img id="bar" class="h-5 invert self-center hidden max-sm:block justify-center items-center"
+                src="icons/bars-solid.svg" alt="menu bar">
         </nav>
         <div class="mob-nav bg-slate-800 hidden">
             <ul class="flex flex-col gap-2 divide-y-2 text-justify text-lg m-1 hover:bg-slate-900  ">
-                <li class="hover:cursor-pointer hover:underline "> <a href="">Home</a> </li>
-                <li class="hover:cursor-pointer hover:underline "> <a href="">About</a> </li>
-                <li class="hover:cursor-pointer hover:underline "> <a href="">Feedback</a> </li>
-                <li class="hover:cursor-pointer hover:underline "> <a href="">Contact</a> </li>
+                <li class="hover:cursor-pointer hover:underline "> <a href="#">Home</a> </li>
+                <li class="hover:cursor-pointer hover:underline "> <a href="#">About</a> </li>
+                <li class="hover:cursor-pointer hover:underline "> <a href="#">Feedback</a> </li>
+                <li class="hover:cursor-pointer hover:underline "> <a href="#">Contact</a> </li>
             </ul>
         </div>
         <div class="hero h-3/4 md:h-[75%] w-full bg-blue-700 flex justify-center items-center text-center">
             <div class="text flex flex-col justify-center items-center text-center gap-6 sm:gap-12">
                 <h1 class="sm:text-5xl text-3xl ">All PDFs are at one place sahyog.notes</h1>
-                <h5 class="text-wrap text-2xl w-3/4 max-sm:hidden">Don't worry to find your study material and stop asking to CR and your friends to send you! sahyog.notes is Developed for you to view and download all semester notes and previous year question paper of all subjects with chapter wise Prepared by sahyog</h5>
-                <div >
-                    <button class="btn rounded-lg p-4 text-xl bg-slate-950 hover:bg-slate-900 hover:cursor-pointer mt-5" >Browse Notes NOW!</button>
+                <h5 class="text-wrap text-2xl w-3/4 max-sm:hidden">Don't worry to find your study material and stop
+                    asking to CR and your friends to send you! sahyog.notes is Developed for you to view and download
+                    all semester notes and previous year question paper of all subjects with chapter wise Prepared by
+                    sahyog</h5>
+                <div>
+                    <button
+                        class="btn rounded-lg p-4 text-xl bg-slate-950 hover:bg-slate-900 hover:cursor-pointer mt-5">Browse
+                        Notes NOW!</button>
                 </div>
             </div>
         </div>
-        <div class="cardcontainer bg-blue-300 h-fit w-full flex justify-center items-center p-16 overflow-hidden">
-            <div class="card-nav w-fit h-fit text-black flex flex-col justify-center items-center gap-10 text-center mt-8">
+        <div class="cardcontainer bg-blue-200 h-fit w-full flex justify-center items-center p-16 overflow-hidden">
+            <div
+                class="card-nav w-fit h-fit text-black flex flex-col justify-center items-center gap-10 text-center mt-5">
                 <h1 class="text-4xl font-semibold text-center whitespace-nowrap">Choose Semester</h1>
                 <nav id="sem-nav">
                     <ul class="nav-ul flex gap-4 text-xl">
@@ -77,4 +89,5 @@
 
 
 </body>
+
 </html>

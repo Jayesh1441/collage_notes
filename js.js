@@ -60,27 +60,27 @@ function showSemester(semester) {
         createCard("icons/sem5/st.jpg", "Software Testing", "https://drive.google.com/drive/folders/1DtxKsBbbcRIaRKrDX276Id2wvNFBLpKf");
         createCard("icons/sem5/asp.webp", "ASP.NET", "https://drive.google.com/drive/folders/1Dxs0oELaC0ZRYoqx5YVApdcFIUaSL9cJ");
         createCard("icons/sem5/php.png", "PHP", "https://drive.google.com/drive/folders/1DwGNYY9ZH3d-mB-Q-QxzSeAJVnX5K4VG");
-        
+
     }
     else if (semester === "Semester 6") {
         createCard("icons/sem6/studio.png", "Android Programming", "https://drive.google.com/drive/folders/1ehrncavMjb89xwLbSCoUDjAHyJXeCUF8");
-        createCard("icons/sem6/py.png", "Python Programming", "");        
+        createCard("icons/sem6/py.png", "Python Programming", "");
         createCard("icons/sem6/cy.jpg", "Cyber Security", "");
         createCard("icons/sem6/dc.png", "Data communication And Network", "");
-        
+
     }
 
 }
 
 
-    createCard("icons/sem1/sanskrit.jpg", "Sanskrit", "https://drive.google.com/drive/folders/1wNTNmRH8Y1q4pfEY7j2muE-XhpkcjsYr");
-    createCard("icons/sem1/english.jpg", "English", "https://drive.google.com/drive/folders/1pTb3Ln22V5afmsZY0iQYS5MJHSDkMi32");
-    createCard("icons/sem1/cf.png", "Computer Fundamemtal", "https://drive.google.com/drive/folders/1ONHM3A8jgY7YTVX2T37QtAlaY2i7EEL6");
-    createCard("icons/sem1/C.png", "Programming in C", "https://drive.google.com/drive/folders/1613B-h4fkN2eA043rkAWzVydTMFt2d2Q");
-    createCard("icons/sem1/os.jpg", "Operating System", "https://drive.google.com/drive/folders/1w9jSje8Jg9L7LP-_wUUNN-fnH-6DHKOA");
-    createCard("icons/sem1/oa.jpg", "Office Automation", "https://drive.google.com/drive/folders/1pCbsFe6I6kJd6BlnnOKOzUJFY1TfSKu2");
-    createCard("icons/sem1/math.jpg", "Discrete Mathematics", "https://drive.google.com/drive/folders/1LS9tiqer0LAzWG7oOer2WZPwNI__glJp");
-    createCard("icons/sem1/stats.webp", "Statistic", "https://drive.google.com/drive/folders/1Lo0hVgFqWqMIcoMAKQCEKWG1t2aaWXyd");
+createCard("icons/sem1/sanskrit.jpg", "Sanskrit", "https://drive.google.com/drive/folders/1wNTNmRH8Y1q4pfEY7j2muE-XhpkcjsYr");
+createCard("icons/sem1/english.jpg", "English", "https://drive.google.com/drive/folders/1pTb3Ln22V5afmsZY0iQYS5MJHSDkMi32");
+createCard("icons/sem1/cf.png", "Computer Fundamemtal", "https://drive.google.com/drive/folders/1ONHM3A8jgY7YTVX2T37QtAlaY2i7EEL6");
+createCard("icons/sem1/C.png", "Programming in C", "https://drive.google.com/drive/folders/1613B-h4fkN2eA043rkAWzVydTMFt2d2Q");
+createCard("icons/sem1/os.jpg", "Operating System", "https://drive.google.com/drive/folders/1w9jSje8Jg9L7LP-_wUUNN-fnH-6DHKOA");
+createCard("icons/sem1/oa.jpg", "Office Automation", "https://drive.google.com/drive/folders/1pCbsFe6I6kJd6BlnnOKOzUJFY1TfSKu2");
+createCard("icons/sem1/math.jpg", "Discrete Mathematics", "https://drive.google.com/drive/folders/1LS9tiqer0LAzWG7oOer2WZPwNI__glJp");
+createCard("icons/sem1/stats.webp", "Statistic", "https://drive.google.com/drive/folders/1Lo0hVgFqWqMIcoMAKQCEKWG1t2aaWXyd");
 
 let bar = document.getElementById("bar")
 let mobNav = document.querySelector(".mob-nav")
@@ -96,66 +96,4 @@ bar.addEventListener("click", () => {
         toggle = 0
     }
 })
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// const semester = {
-//     sem1 : sem1(),
-//     sem2 : sem2(),
-//     sem3 : sem3(),
-//     sem4 : sem4(),
-
-// }
-
-// function sem1() {
-//     createCard("icons/sanskrit.jpg", "Sanskrit", "https://drive.google.com/drive/folders/1wNTNmRH8Y1q4pfEY7j2muE-XhpkcjsYr");
-//     createCard("icons/english.jpg", "English", "https://drive.google.com/drive/folders/1pTb3Ln22V5afmsZY0iQYS5MJHSDkMi32");
-//     createCard("icons/cf.png", "Computer Fundamemtal", "https://drive.google.com/drive/folders/1ONHM3A8jgY7YTVX2T37QtAlaY2i7EEL6");
-//     createCard("icons/C.png", "Programming in C", "https://drive.google.com/drive/folders/1613B-h4fkN2eA043rkAWzVydTMFt2d2Q");
-//     createCard("icons/os.jpg", "Operating System", "https://drive.google.com/drive/folders/1w9jSje8Jg9L7LP-_wUUNN-fnH-6DHKOA");
-//     createCard("icons/oa.jpg", "Office Automation", "https://drive.google.com/drive/folders/1pCbsFe6I6kJd6BlnnOKOzUJFY1TfSKu2");
-//     createCard("icons/math.jpg", "Discrete Mathematics", "https://drive.google.com/drive/folders/1LS9tiqer0LAzWG7oOer2WZPwNI__glJp");
-//     createCard("icons/stats.webp", "Statistic", "https://drive.google.com/drive/folders/1Lo0hVgFqWqMIcoMAKQCEKWG1t2aaWXyd");
-// }
-function sem2() {
-    createCard("icons/sanskrit.jpg", "Sanskrit", "https://drive.google.com/drive/folders/1wNTNmRH8Y1q4pfEY7j2muE-XhpkcjsYr");
-    // createCard("icons/english.jpg", "English", "https://drive.google.com/drive/folders/1pTb3Ln22V5afmsZY0iQYS5MJHSDkMi32");
-    // createCard("icons/cf.png", "Computer Fundamemtal", "https://drive.google.com/drive/folders/1ONHM3A8jgY7YTVX2T37QtAlaY2i7EEL6");
-    // createCard("icons/C.png", "Programming in C", "https://drive.google.com/drive/folders/1613B-h4fkN2eA043rkAWzVydTMFt2d2Q");
-    createCard("icons/os.jpg", "Operating System", "https://drive.google.com/drive/folders/1w9jSje8Jg9L7LP-_wUUNN-fnH-6DHKOA");
-    createCard("icons/oa.jpg", "Office Automation", "https://drive.google.com/drive/folders/1pCbsFe6I6kJd6BlnnOKOzUJFY1TfSKu2");
-    createCard("icons/math.jpg", "Discrete Mathematics", "https://drive.google.com/drive/folders/1LS9tiqer0LAzWG7oOer2WZPwNI__glJp");
-    createCard("icons/stats.webp", "Statistic", "https://drive.google.com/drive/folders/1Lo0hVgFqWqMIcoMAKQCEKWG1t2aaWXyd");
-}
-// function sem3() {
-//     createCard("icons/sanskrit.jpg", "Sanskrit", "https://drive.google.com/drive/folders/1wNTNmRH8Y1q4pfEY7j2muE-XhpkcjsYr");
-//     createCard("icons/english.jpg", "English", "https://drive.google.com/drive/folders/1pTb3Ln22V5afmsZY0iQYS5MJHSDkMi32");
-//     createCard("icons/cf.png", "Computer Fundamemtal", "https://drive.google.com/drive/folders/1ONHM3A8jgY7YTVX2T37QtAlaY2i7EEL6");
-//     createCard("icons/C.png", "Programming in C", "https://drive.google.com/drive/folders/1613B-h4fkN2eA043rkAWzVydTMFt2d2Q");
-//     createCard("icons/os.jpg", "Operating System", "https://drive.google.com/drive/folders/1w9jSje8Jg9L7LP-_wUUNN-fnH-6DHKOA");
-//     createCard("icons/oa.jpg", "Office Automation", "https://drive.google.com/drive/folders/1pCbsFe6I6kJd6BlnnOKOzUJFY1TfSKu2");
-//     createCard("icons/math.jpg", "Discrete Mathematics", "https://drive.google.com/drive/folders/1LS9tiqer0LAzWG7oOer2WZPwNI__glJp");
-//     createCard("icons/stats.webp", "Statistic", "https://drive.google.com/drive/folders/1Lo0hVgFqWqMIcoMAKQCEKWG1t2aaWXyd");
-// }
-// function sem4() {
-//     createCard("icons/sanskrit.jpg", "Sanskrit", "https://drive.google.com/drive/folders/1wNTNmRH8Y1q4pfEY7j2muE-XhpkcjsYr");
-//     createCard("icons/english.jpg", "English", "https://drive.google.com/drive/folders/1pTb3Ln22V5afmsZY0iQYS5MJHSDkMi32");
-//     createCard("icons/cf.png", "Computer Fundamemtal", "https://drive.google.com/drive/folders/1ONHM3A8jgY7YTVX2T37QtAlaY2i7EEL6");
-//     createCard("icons/C.png", "Programming in C", "https://drive.google.com/drive/folders/1613B-h4fkN2eA043rkAWzVydTMFt2d2Q");
-//     createCard("icons/os.jpg", "Operating System", "https://drive.google.com/drive/folders/1w9jSje8Jg9L7LP-_wUUNN-fnH-6DHKOA");
-//     createCard("icons/oa.jpg", "Office Automation", "https://drive.google.com/drive/folders/1pCbsFe6I6kJd6BlnnOKOzUJFY1TfSKu2");
-//     createCard("icons/math.jpg", "Discrete Mathematics", "https://drive.google.com/drive/folders/1LS9tiqer0LAzWG7oOer2WZPwNI__glJp");
-//     createCard("icons/stats.webp", "Statistic", "https://drive.google.com/drive/folders/1Lo0hVgFqWqMIcoMAKQCEKWG1t2aaWXyd");
-// }
 
